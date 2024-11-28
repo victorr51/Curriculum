@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animación 64 bits</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #282c34;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 2em; /* Tamaño de "Curriculum" */
+        }
+        .floating-text {
+            animation: fade 2s infinite;
+            margin-top: 20px;
+            font-size: 2.5em; /* Tamaño de "SOY TREMENDO DISEÑADOR" */
+        }
+        @keyframes fade {
+            0%, 100% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Curriculum</h1>
+        <div class="floating-text">SOY TREMENDO DISEÑADOR</div>
+    </div>
+</body>
+</html>
